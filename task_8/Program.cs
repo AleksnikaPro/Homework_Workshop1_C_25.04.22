@@ -1,4 +1,6 @@
-﻿Console.Write("Введите делимое число: ");
+﻿// Выяснить, кратно ли число заданному, если нет, вывести остаток.
+
+Console.Write("Введите делимое число: ");
 int numberA = int.Parse(Console.ReadLine());
 Console.Write("Введите делитель числа: ");
 int numberB = int.Parse(Console.ReadLine());
