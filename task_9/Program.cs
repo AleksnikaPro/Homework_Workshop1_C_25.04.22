@@ -1,4 +1,6 @@
-﻿Console.Write("Введите число: ");
+﻿// Найти третью цифру числа или сообщить, что её нет.
+
+Console.Write("Введите число: ");
 int number = int.Parse(Console.ReadLine());
 int result = number / 100;
 
