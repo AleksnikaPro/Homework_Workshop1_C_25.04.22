@@ -1,4 +1,6 @@
-﻿Console.Write("Введите трёхзначное число: ");
+﻿// Удалить вторую цифру трёхзначного числа.
+
+Console.Write("Введите трёхзначное число: ");
 int number =  int.Parse(Console.ReadLine());
 int result = number / 10;
 if (number > 99 && number < 1000)
